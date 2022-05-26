@@ -1,0 +1,102 @@
+
+body {
+    margin: 0;
+    font: 12px/14px Helvetica, Arial, sans-serif;
+    color: #000;
+    background-color: #539ee1;
+     
+  
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+
+  h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #000;
+  }
+  #todo{
+      width:300px;
+      background-color: #fdfffe;
+      border-radius: 5px;
+      margin:20px;
+      padding: 20px;
+  }
+
+  #add_todo_item_form{
+    width: 100%;
+    overflow: hidden;
+    margin:0 0 20px;
+  }
+
+  #add_todo_item_form .inp_text,
+  #add_todo_item_form .inp_text:focus{
+    background-color: #fefefe;
+    color:grey;
+    font: 10px/14px Arial, Helvetica, sans-serif;
+    border-width: 1px;
+    border-color: #d4d4d4; 
+    padding:4px 2px 2px 6px;
+    float: left;
+    margin-right: 10px;
+    width:240px;
+  }
+  #add_todo_item_form .inp_submit{
+      background-color: #8d4ae7;
+      color:#fff;
+      font-weight: bold;
+      padding: 3px;
+      width: 30px;
+      float: right;
+      border: none;
+      cursor: pointer;
+  }
+ #todolist{
+   width: 100%;
+    padding:0;
+    margin:0 0 20px;
+    overflow:hidden;
+    
+  }
+  #todolist li{
+    list-style-type: none;
+    width:100%;
+    margin:0 0 10px;
+    overflow:hidden;
+    background-color: #f3f1f4;
+    font:12px/14px Arial, Helvetica, sans-serif;
+  }
+  #todolist li span{
+    float:left;
+    color:#000;
+    padding:7px 0 0 10px;
+  }
+  #todolist li a{
+    float:right;
+    visibility: hidden;
+    background: #e64d3b url("../images/delete.gif") no-repeat  center; 
+    text-indent: -9999px;
+    width:30px;
+    height:30px;
+  
+  }
+  #todolist li:hover a{
+    visibility: visible;
+  }
+  .total_items{
+    width:100%;
+    overflow: hidden;
+  }
+  .total_items p{
+    float:left;
+    margin:0;
+  }
+  .total_items a{
+    float:right;
+    background-color: #8d4ae7; 
+    color:#fff;
+    text-decoration:none;
+    padding: 5px 7px;
+  }
