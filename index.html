@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>To do list</title>
+        <link rel="stylesheet" href="./css/theme.css"> 
+    </head>
+    <body>
+        <section id="todo">
+            <h1>To Do App</h1>
+            <form id="add_todo_item_form" method="post">
+                <input type="text" class="inp_text" value="Add your new todo"/>
+                <input type="submit" class="inp_submit" value="+"/>
+            </form>
+            <ul id="todolist">
+                <li>
+                    <span class="item_text">Buy a new gaming laptop</span>
+                    <a href="#" class="delete_item">Delete item</a>
+                </li>
+                <li>
+                    <span class="item_text">Complete a previous task</span>
+                    <a href="#" class="delete_item">Delete item</a>
+                </li>
+                <li>
+                    <span class="item_text">Create video for YouTube</span>
+                    <a href="#" class="delete_item">Delete item</a>
+                </li>
+                <li>
+                    <span class="item_text">Create a new portfolio site</span>
+                    <a href="#" class="delete_item">Delete item</a>
+                </li>
+            </ul>
+            <div class="total_items">
+                <p>You have <span id="count_items">4</span> pending tasks.</p>
+                <a href="#" id="delete_all">Clear All</a>
+            </div>
+        </section>
+    </body>
+</html>
